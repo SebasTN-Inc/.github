@@ -1,28 +1,26 @@
 <div align="center">
+  <img src="https://github.com/SebasTN-Inc.png?size=240" width="120" alt="SebasTN">
 
-# SebasTN Inc
+# SebasTN Inc.
 
-**Legal entity for the [SebasTN Inc](https://sebastn.com) platform.**
+**Payments for businesses: card and digital dollars, and we never hold the money.**
 
-[**🌐 sebastn.com**](https://sebastn.com) · [**💻 Engineering**](https://github.com/SebasTN-Rhys) · [**🏠 GitHat platform**](https://github.com/GitHat-IO)
+[sebastn.com](https://sebastn.com) · [Crunchbase](https://www.crunchbase.com/organization/sebastn) · New York
 
 </div>
 
 ---
 
-## About this org
+SebasTN gets a business paid two ways. Card payments run through the business's own Stripe account. Digital-dollar payments (USDC) run through Access0x1, a payment router that pays the business in the same transaction and never holds the funds.
 
-This GitHub org is the **legal entity home** for SebasTN Inc. Day-to-day engineering happens in [`SebasTN-Rhys`](https://github.com/SebasTN-Rhys); this org exists to hold:
+### What SebasTN owns
 
-- 📜 Corporate legal artifacts (data-room, MSAs, DPAs)
-- 🔐 Customer-facing security disclosure ([security@sebastn.com](mailto:security@sebastn.com))
-- 📋 Audit-archive references
+| | |
+|---|---|
+| **[Access0x1](https://access0x1.com)** | The payment router. Live on Base, Ethereum, Unichain and Arc, owned by a 2-of-3 Safe. Every payment is on the [public record](https://access0x1.com/mainnet). |
+| **[ClickReserv](https://clickreserv.com)** | Booking and payments for appointment businesses, in 24 languages. |
+| **[reserv.click](https://reserv.click)** | Short links and QR codes. |
 
-Customers, partners, or auditors: this is the right org to address.
-Contributors or developers: head to [`SebasTN-Rhys`](https://github.com/SebasTN-Rhys).
+### Security
 
-## Security
-
-- **Disclose vulnerabilities:** [security@sebastn.com](mailto:security@sebastn.com) — see [SECURITY.md](./SECURITY.md)
-- **Verified domains:** `sebastn.com` + `www.sebastn.com` (managed certs, single-CA lockdown)
-- **Auth:** delegated to GitHat
+Report a vulnerability privately, never in a public issue. See [SECURITY.md](https://github.com/SebasTN-Inc/.github/blob/main/SECURITY.md).
